@@ -8,9 +8,9 @@ const prettyPrintWilder = (users: User []) => {
   };
   
   const wilders: User[] = [];
-  const user1: User = { name: "Pierre", age: 23, birthday: "10/02/1990"};
+  const user1: User = { name: "Pierre", age: 23};
   const user2: User = { name: "Paul", birthday: "10/02/1990", age: 18};
-  const user3: User = { name: "Jacques", age: 25, birthday: "10/02/1990" };
+  const user3: User = { name: "Jacques", age: 25 };
   wilders.push(wilders[0]);
   wilders.push(wilders[1]);
   wilders.push(wilders[2]);
